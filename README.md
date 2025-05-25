@@ -1,123 +1,133 @@
-# 🍔  Aplicativo de Hamburgueria
+# 🍔  Burger App
 
-Este é um projeto Full Stack desenvolvido como parte do aprendizado no curso **DevClub**, com o objetivo de construir uma aplicação completa para gerenciar pedidos de uma hamburgueria.
+This is a Full Stack project developed as part of the **DevClub** course, with the goal of building a complete application to manage orders for a burger restaurant.
+
+---
+
+## 🚀 About the Project
+
+**DevBurguer** is a web application that allows:
+
+Customer:
+
+* View a menu of burgers and sides
+* Place orders online
+
+Administrator:
+
+* Manage orders through the admin panel
+
+The focus is on applying best development practices, backend integration, API consumption, and component organization in a real-world environment.
 
 ---
 
-## 🚀 Sobre o Projeto
-
-O **DevBurguer** é uma aplicação web que permite:
-Cliente:
-- Visualizar um cardápio de hambúrgueres e acompanhamentos
-- Realizar pedidos online
-Administrador:
-- Gerenciar pedidos pelo painel do administrador
-
-O foco está em aplicar boas práticas de desenvolvimento, integração com backend, consumo de APIs e organização de componentes em um ambiente real.
+<p>Login Screen</p>
+<img src="https://github.com/user-attachments/assets/59ca2e23-6a68-4443-8b15-f53773550152" width="30%" />
+<p>Menu Screen</p>
+<img src="https://github.com/user-attachments/assets/4df205fe-7c0a-46b9-b453-ea55b25eadfe" width="30%" />
+<p>Offers and Categories Screen</p>
+<img src="https://github.com/user-attachments/assets/7295d282-ce55-4396-a775-1b69f9853d23" width="30%" />
+<p>Cart Screen</p>
+<img src="https://github.com/user-attachments/assets/dbb0b6c4-eaaa-45b7-a178-3c8d14760b86" width="30%" />
+<p>Admin Screen</p>
+<img src="https://github.com/user-attachments/assets/501fa25b-dd4f-4154-8d7f-e5aed2044e7e" width="30%" />
+<p>Products Screen</p>
+<img src="https://github.com/user-attachments/assets/863d0526-d55c-4dc6-9b8d-426eb9bcc2e1" width="30%" />
 
 ---
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/4df205fe-7c0a-46b9-b453-ea55b25eadfe" width="25%" />
-  <img src="https://github.com/user-attachments/assets/7295d282-ce55-4396-a775-1b69f9853d23" width="25%" />
-  <img src="https://github.com/user-attachments/assets/dbb0b6c4-eaaa-45b7-a178-3c8d14760b86" width="25%" />
-  <img src="https://github.com/user-attachments/assets/501fa25b-dd4f-4154-8d7f-e5aed2044e7e" width="25%" />
-</p>
 
-<p align="center">
-  
-  <img src="https://github.com/user-attachments/assets/863d0526-d55c-4dc6-9b8d-426eb9bcc2e1" width="30%" />
-  <img src="https://github.com/user-attachments/assets/59ca2e23-6a68-4443-8b15-f53773550152" width="30%" />
-</p>
-
-
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 ### Frontend:
-- **React** (com React Hooks)
-- **Axios** (para chamadas HTTP)
-- **React Router DOM** (para rotas)
-- **Styled-Components** ou **CSS Modules** (para estilização)
-- **Context API** (para gerenciar o estado global)
+
+* **React** (with React Hooks)
+* **Axios** (for HTTP requests)
+* **React Router DOM** (for routing)
+* **Styled-Components** or **CSS Modules** (for styling)
+* **Context API** (to manage global state)
 
 ### Backend:
-- **Node.js** com **Express**
-- **MongoDB** com **Mongoose**
-- **Dotenv** (variáveis de ambiente)
-- **Cors** (para permitir requisições)
-- **Nodemon** (para desenvolvimento)
 
-### Outros:
-- **Git & GitHub** (versionamento)
-- **Postman** (para testar a API)
-- **Docker**
+* **Node.js** with **Express**
+* **MongoDB** with **Mongoose**
+* **Dotenv** (environment variables)
+* **Cors** (to allow requests)
+* **Nodemon** (for development)
 
----
+### Others:
 
-## 📚 Aprendizados
-
-Durante o desenvolvimento do DevBurguer, foram aplicados e aprendidos os seguintes conceitos:
-
-- Estruturação de um projeto Full Stack do zero
-- Conexão entre frontend e backend usando APIs RESTful
-- Criação de rotas privadas para administradores
-- Uso de MongoDB com Mongoose para persistência de dados
-- Organização de código e componentização no React
-- Gerenciamento de estados globais com Context API
-- Tratamento de erros no frontend e backend
-- Segurança de informações sensíveis com arquivos `.env`
+* **Git & GitHub** (version control)
+* **Postman** (to test the API)
+* **Docker**
 
 ---
 
+## 📚 Learnings
 
-## 🖥️ Como rodar o projeto na sua máquina
+During the development of DevBurguer, the following concepts were applied and learned:
 
-### ⚙️ Pré-requisitos
+* Structuring a Full Stack project from scratch
+* Connecting frontend and backend using RESTful APIs
+* Creating private routes for administrators
+* Using MongoDB with Mongoose for data persistence
+* Code organization and componentization in React
+* Managing global state with Context API
+* Error handling on both frontend and backend
+* Securing sensitive information using `.env` files
 
-Antes de começar, você vai precisar ter instalado:
-- [Node.js](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/)
-- [Git](https://git-scm.com/)
-- Um gerenciador de pacotes (npm ou yarn)
+---
 
-### 🔧 Instalação
+## 🖥️ How to Run the Project Locally
 
-1. **Clone o repositório:**
+### ⚙️ Prerequisites
+
+Before starting, you will need to have installed:
+
+* [Node.js](https://nodejs.org/)
+* [MongoDB](https://www.mongodb.com/)
+* [Git](https://git-scm.com/)
+* A package manager (npm or yarn)
+
+### 🔧 Installation
+
+1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/PolyannaMeira/Hamburgueria.git
 cd Hamburgueria
+```
 
-### 2. Instale as dependências do backend:
+2. **Install backend dependencies:**
 
 ```bash
 cd Devburger_API
 npm install
 ```
 
-### 3. Configure o arquivo `.env`:
+3. **Configure the `.env` file:**
 
-Crie um arquivo `.env` dentro da pasta `Devburger_API` com as seguintes variáveis (exemplo):
+Create a `.env` file inside the `Devburger_API` folder with the following variables (example):
 
 ```env
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/devburguer
-JWT_SECRET=sua_chave_secreta
+JWT_SECRET=your_secret_key
 ```
 
-### 4. Inicie o backend:
+4. **Start the backend:**
 
 ```bash
 npm run dev
 ```
 
-### 5. Instale as dependências do frontend (se houver pasta separada):
+5. **Install frontend dependencies (if in a separate folder):**
 
 ```bash
-cd ../[pasta-do-frontend]
+cd ../[frontend-folder]
 npm install
 ```
 
-### 6. Inicie o frontend:
+6. **Start the frontend:**
 
 ```bash
 npm start
@@ -125,7 +135,7 @@ npm start
 
 ---
 
-## 📂 Estrutura do Projeto (resumida)
+## 📂 Project Structure (Summary)
 
 ```
 Hamburgueria/
@@ -134,11 +144,11 @@ Hamburgueria/
 │   ├── controllers/
 │   ├── models/
 │   ├── routes/
-│   ├── .env (adicionado ao .gitignore)
+│   ├── .env (added to .gitignore)
 │   ├── server.js
 │   └── ...
 │
-├── [pasta-do-frontend]/
+├── [frontend-folder]/
 │   ├── src/
 │   ├── public/
 │   └── ...
@@ -148,15 +158,14 @@ Hamburgueria/
 
 ---
 
-## 👩‍💻 Desenvolvido por
+## 👩‍💻 Developed by
 
-**Polyanna Meira**  
+**Polyanna Meira**
 🔗 [GitHub](https://github.com/PolyannaMeira)
-🔗 [Linkedin](https://www.linkedin.com/in/polyanna-meira/)
-
+🔗 [LinkedIn](https://www.linkedin.com/in/polyanna-meira/)
 
 ---
 
-## ⚠️ Aviso
+## ⚠️ Warning
 
-Este projeto é voltado para fins de estudo. Informações sensíveis (como chaves de API ou banco de dados) não devem ser versionadas — use arquivos `.env` com o `.gitignore` corretamente configurado.
+This project is intended for learning purposes. Sensitive information (such as API keys or database credentials) should not be versioned — use `.env` files with properly configured `.gitignore`.
