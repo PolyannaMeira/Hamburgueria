@@ -16,8 +16,19 @@ Administrador:
 O foco está em aplicar boas práticas de desenvolvimento, integração com backend, consumo de APIs e organização de componentes em um ambiente real.
 
 ---
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4df205fe-7c0a-46b9-b453-ea55b25eadfe" width="25%" />
+  <img src="https://github.com/user-attachments/assets/7295d282-ce55-4396-a775-1b69f9853d23" width="25%" />
+  <img src="https://github.com/user-attachments/assets/dbb0b6c4-eaaa-45b7-a178-3c8d14760b86" width="25%" />
+  <img src="https://github.com/user-attachments/assets/501fa25b-dd4f-4154-8d7f-e5aed2044e7e" width="25%" />
+</p>
 
-![Image](https://github.com/user-attachments/assets/59ca2e23-6a68-4443-8b15-f53773550152)
+<p align="center">
+  
+  <img src="https://github.com/user-attachments/assets/863d0526-d55c-4dc6-9b8d-426eb9bcc2e1" width="30%" />
+  <img src="https://github.com/user-attachments/assets/59ca2e23-6a68-4443-8b15-f53773550152" width="30%" />
+</p>
+
 
 ## 🛠️ Tecnologias Utilizadas
 
