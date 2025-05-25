@@ -17,6 +17,8 @@ O foco está em aplicar boas práticas de desenvolvimento, integração com back
 
 ---
 
+![Image](https://github.com/user-attachments/assets/59ca2e23-6a68-4443-8b15-f53773550152)
+
 ## 🛠️ Tecnologias Utilizadas
 
 ### Frontend:
